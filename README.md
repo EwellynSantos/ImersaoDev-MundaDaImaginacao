@@ -26,4 +26,14 @@
 - Há dois botões de acessibilidade no topo da página:
 Ativar Fonte Disléxica: Alterna a fonte para uma mais acessível a pessoas com dislexia.
 Ativar cores para daltônicos: Alterna a paleta de cores da página para uma versão amigável para daltônicos.
-   
+
+
+## Estrutura do Projeto
+- index.html: Estrutura principal da página.
+- style.css: Estilos da página, incluindo responsividade e regras de acessibilidade.
+- main.js: Arquivo JavaScript responsável pela lógica de pesquisa e funções de acessibilidade.
+- dados.js: Dados de exemplo (livros) para o sistema de pesquisa.
+- assets/: Imagens e outros recursos estáticos.   
+
+
+Feito com ❤️ por EveDev
