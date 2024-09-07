@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Metadados básicos para garantir a compatibilidade com diferentes dispositivos e navegadores -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link externo para o arquivo CSS, que contém a estilização da página -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Título da página que será exibido na aba do navegador -->
+    <title>Mundo da Imaginação</title>
+</head>
+<body>
+    <!-- Cabeçalho da página contendo o título principal e os botões de acessibilidade -->
+    <header>
+        <!-- Título principal da página -->
+        <h1>Explore a sua imaginação e inicie um livro</h1>
+        
+        <!-- Div que agrupa os botões de acessibilidade -->
+        <div class="botoes-acessibilidade">
+            <!-- Botão para alternar a fonte para uma fonte amigável para pessoas com dislexia -->
+            <button id="toggleFont" onclick="toggleDyslexiaFont()">Ativar Fonte Disléxica</button>
+            
+            <!-- Botão para alternar as cores para uma paleta de cores acessível a daltônicos -->
+            <button id="toggleDaltonismo" onclick="toggleDaltonismo()">Ativar cores para daltônico</button>
+        </div>
+    </header>
+    
+    <!-- Seção principal da página -->
+    <main>
+        <!-- Seção dedicada ao campo de pesquisa, onde o usuário pode digitar e enviar consultas -->
+        <section id="section-campo-pesquisa">
+            <!-- Campo de entrada de texto para o usuário realizar pesquisas -->
+            <input type="text" placeholder="Digite aqui" id="campo-pesquisa">
+            
+            <!-- Botão que dispara a função de pesquisa quando clicado -->
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        
+        <!-- Seção onde os resultados da pesquisa serão exibidos dinamicamente -->
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <!-- Esta seção será preenchida com os resultados através de JavaScript -->
+        </section>
+    </main>
+    
+    <!-- Rodapé da página, contendo informações de copyright -->
+    <footer>
+        <p>2024 © Mundo da Imaginação | Todos os direitos reservados.</p>
+    </footer>
+    
+    <!-- Inclusão dos arquivos JavaScript necessários para o funcionamento das interações -->
+    <script src="dados.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
