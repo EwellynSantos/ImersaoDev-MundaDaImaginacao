@@ -1,5 +1,7 @@
 # Mundo da Imaginação
 
+![image](https://github.com/user-attachments/assets/1c668799-d3e5-4113-9a37-687e8148a24a)
+
 **Mundo da Imaginação** é uma aplicação web voltada para ajudar os usuários a explorar livros através de um sistema de busca simples e acessível. O projeto inclui funcionalidades voltadas para acessibilidade, como opções de fontes amigáveis para pessoas com dislexia, paletas de cores adaptadas para daltônicos e link de AudioBooks para pessoas com deficiência visual.
 
 ## Funcionalidades
